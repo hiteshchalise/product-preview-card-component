@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github link](https://github.com/hiteshchalise/product-preview-card-component)
+- Live Site URL: [Live versel deployment](https://product-preview-card-component-hitesh.vercel.app/)
 
 ## My process
 
