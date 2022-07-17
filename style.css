@@ -81,10 +81,10 @@ svg {
   --fw-regular: 500;
   --fw-bold: 700;
 
-  --fs-card-heading: 2rem;
+  --fs-card-heading: 1.8rem;
   --fs-card-heading-tag: 0.875rem;
   --fs-card-paragraph: 0.875rem;
-  --fs-card-main-price: 2rem;
+  --fs-card-main-price: 1.8rem;
   --fs-card-original-price: 0.7rem;
   --fs-card-button: 1rem;
 }
@@ -128,10 +128,12 @@ body {
   background-image: url(images/image-product-desktop.jpg);
   background-position: center;
   background-size: cover;
+  min-width: 300px;
 }
 
 .content {
   padding: 2rem;
+  min-width: 300px;
   color: var(--clr-neutral-500);
 }
 
@@ -143,6 +145,7 @@ body {
 .prices {
   padding-top: 2rem;
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
   align-items: center;
 }
@@ -173,6 +176,9 @@ body {
 @media (min-width: 601px) and (max-width: 660px) {
   .card {
     max-width: calc(600px * 0.9);
+  }
+  .card > * {
+    min-width: calc(300px * 0.9);
   }
 }
 
